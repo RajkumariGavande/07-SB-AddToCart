@@ -16,6 +16,14 @@ import com.cjc.app.service.ProductServiceImpl;
 
 @Controller
 public class ProductController {	
+	
+	public String OddEven(int num) {
+		return (num%2==0)?"Even":"Odd";
+	}
+	
+	
+	
+	
 	@Autowired
 	private ProductService productService;
 
