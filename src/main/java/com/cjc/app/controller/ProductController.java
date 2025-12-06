@@ -15,13 +15,7 @@ import com.cjc.app.service.ProductService;
 import com.cjc.app.service.ProductServiceImpl;
 
 @Controller
-public class ProductController {
-	public String  OddEvenNo(int num) {
-		return(num%2==0)?"Even":"Odd";
-	}
-	
-	
-	
+public class ProductController {	
 	@Autowired
 	private ProductService productService;
 
