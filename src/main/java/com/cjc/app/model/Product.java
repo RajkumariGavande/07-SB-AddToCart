@@ -13,6 +13,9 @@ import org.hibernate.annotations.DynamicUpdate;
 @DynamicUpdate
 @Entity
 public class Product {
+
+         private String name="Ronit";
+
 	@Id
 	@Column(name = "PRODUCT_ID")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
