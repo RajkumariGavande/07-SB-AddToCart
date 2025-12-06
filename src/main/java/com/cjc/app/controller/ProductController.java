@@ -20,6 +20,7 @@ public class ProductController {
 	public String OddEven(int num) {
 		return (num%2==0)?"Even":"Odd";
 	}
+	int x;
 	
 	
 	
