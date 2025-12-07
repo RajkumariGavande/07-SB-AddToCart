@@ -15,9 +15,13 @@ import com.cjc.app.service.ProductService;
 import com.cjc.app.service.ProductServiceImpl;
 
 @Controller
-public class ProductController {	
+public class ProductController {
 	
-	
+	public String PosNegNo(int num){
+		return (num>0)?"Positive Number":"Negative Number";
+	}
+		
+
 	@Autowired
 	private ProductService productService;
 
